@@ -1,7 +1,7 @@
-makeVector3D = () => {
-    vector = [0,0,0];
+makeVector3D = (x = 0, y = 0, z = 0) => {
+  vector = [x, y, z];
 
-    return vector;
+  return vector;
 };
 
 module.exports = {
